@@ -1,0 +1,15 @@
+n=int(input("Digite um número: "))
+x1= 1*n
+x2= 2*n
+x3= 3*n
+x4= 4*n
+x5= 5*n
+x6= 6*n
+x7= 7*n
+x8= 8*n
+x9= 9*n
+x10= 10*n
+print("-"*24)
+print("A tabuada desse valor é: \n 1x{}={}\n 2x{}={}\n 3x{}={}\n 4x{}={}\n 5x{}={}\n 6x{}={}\n 7x{}={}\n 8x{}={}\n 9x{}={}\n 10x{}={}".format(n,x1,n,x2,n,x3,n,x4,n,x5,n,x6,n,x7,n,x8,n,x9,n,x10,n))
+print("-"*24)
+#print("{} x {:2} = {}".format(n, 1, n*1))
