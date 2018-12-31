@@ -1,0 +1,7 @@
+#Radar eletronico
+v=float(input("Qual a velocidade atual do carro? "))
+if v > 80:
+    print("Multado! Você escedeu o limite permitido que é de 80km/h")
+    m=(v-80)*7
+    print("Você deve pagar uma multa de R${:.2f}!".format(m))
+print("Tenha um bom dia! Dirija com segurança!")
