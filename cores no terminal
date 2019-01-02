@@ -1,0 +1,16 @@
+#cores no terminal
+#ansi "escape sequence" code: "\033[style0; text33; back44m"
+#style: 0 none, 1, bold, 4 underline, 7 negative
+#text: 30 branco, 31 vermelho, 32 verde, 33, amarelo, 34 azul, 35 magenta, 36 ciano, 37 cinza
+#back: 40 branco, 41 vermelho, 42 verde, 43 amarelo, 44 azul, 45 magenta, 46 ciano, 47 cinza
+
+
+#print("\033[4;30;45mOlá, mundo!\033[m")
+
+nome= "Helena"
+cores={"limpa":"\033[m",
+       "azul":"\033[34m",
+       "amarelo":"\033[33m"
+       "pretoebranco":"\033[7;30m"}
+print("Olá! Muito prazer em te conhecer, {}{}{}!!!".format(cores["amarelo"], nome,cores["limpa"]))
+#print("Olá! Muito prazer em te conhecer, {}{}{}!!!".format("\033[4;34m", nome, "\033[m"))
