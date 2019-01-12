@@ -1,0 +1,51 @@
+/* 
+SELETOR {
+  PROPRIEDADE: VALOR;
+}
+*/
+
+body {
+  background-color: #e0e4ef;
+
+  /* background: linear-gradient(90deg, blue, green, red); */
+  
+  /* background-image: url(assets/img/faustao-02.jpeg);
+  background-repeat: no-repeat;
+  background-position: center; */
+
+  margin: 0;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: aquamarine;
+  padding: 5px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  text-decoration: none;
+  color: black;
+}
+
+.texto-vermelho {
+  color: red;
+}
+
+.fonte-serifada {
+  font-family: serif;
+}
+
+.imagem-01 {
+  display: block;
+  margin: 5px 10px 50px 25px;
+  width: 300px;
+}
+
+main {
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
