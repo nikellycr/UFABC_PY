@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body id="corpo">
+    <div>
+        <button id="botao">CLIQUE AQUI</button>
+    </div>
+    
+</body>
+</html>
+
+div{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+    color:lightcoral; 
+    font-size: 20pt;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+let botao = document.querySelector("#botao");
+let pagina = document.querySelector("#corpo");
+
+function trocarCor(){
+    pagina.style.backgroundColor = "lightcoral";
+}
+
+botao.onclick = trocarCor;
